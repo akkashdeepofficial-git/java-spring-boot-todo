@@ -5,4 +5,4 @@ COPY . .
 
 RUN chmod +x mvnw && ./mvnw clean install
 
-CMD ["java", "-jar", "target/*.jar"]
+CMD ["java", "-jar", "target/*.jar"]SS
